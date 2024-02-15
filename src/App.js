@@ -20,6 +20,8 @@ export default function App() {
          
           <div className='card color'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas distinctio quidem cumque nulla magni nostrum non, tempore ipsa asperiores nisi harum ullam voluptate!</div>
       </div>
+
+      <div className='card color '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum pariatur saepe sunt optio cum. Perferendis deleniti explicabo eum. Reprehenderit blanditiis accusantium enim dolores. Commodi nulla eos eum praesentium totam, mollitia quam vitae laborum temporibus rerum nisi odio earum excepturi architecto voluptatem eaque aperiam possimus et sapiente vel! Illo, similique quisquam!</div>
     </div>
   )
 }
