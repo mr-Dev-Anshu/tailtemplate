@@ -5,7 +5,7 @@
      @apply text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2
 }
 
-.dark1{
+.bg{
      @apply dark:bg-[#17202A] bg-[#11111]
 }
 
@@ -21,7 +21,20 @@
 }
 .center-box {
      @apply flex justify-center items-center 
-}
+} 
+
+ 
+
+@media (max-width: 768px) {
+     .center-line {
+         @apply flex-col items-center;
+     }
+ }
+ 
+
+
+
+
 
 @tailwind utilities;
 
