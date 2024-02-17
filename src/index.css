@@ -8,8 +8,13 @@
   @apply text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm text-center py-1 px-3;
 }
 
+
 .outlined-btn {
   @apply outline outline-1 outline-slate-300 font-normal text-sm text-slate-600 hover:text-black p-1 rounded-lg px-3 hover:bg-slate-200 transition-all duration-300;
+
+.bg{
+     @apply dark:bg-[#17202A] bg-[#11111]
+
 }
 
 .neumorphic-btn {
@@ -24,9 +29,28 @@
   @apply p-1 px-3 rounded-md shadow-lg bg-white shadow-neutral-400 text-slate-600 hover:bg-slate-100 transition-all duration-300
 }
 
+
 .neumorphic-btn-2-dark {
   @apply p-1 px-3 rounded-lg shadow-lg bg-black text-slate-500 shadow-slate-700 hover:bg-white/5 transition-all duration-300
 }
+
+.center-box {
+     @apply flex justify-center items-center 
+} 
+
+ 
+
+@media (max-width: 768px) {
+     .center-line {
+         @apply flex-col items-center;
+     }
+ }
+ 
+
+
+
+
+
 
 
 /* Cards */
