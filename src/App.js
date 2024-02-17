@@ -1,10 +1,20 @@
-import React from 'react'
+import React from "react";
 
-export default function App() {
-    
-    
-    
+const App = () => {
   return (
+    <>
+      <div className="flex justify-center items-center h-screen w-screen  ">
+        <button className="neumorphic-btn">subscribe</button>
+      </div>
+      <div className="flex justify-center items-center h-screen w-screen dark bg-black  ">
+        <button className="neumorphic-btn-dark">subscribe</button>
+      </div>
+    </>
+  );
+};
+
+export default App;
+
     <div className=''>
      {/* <button className='btn'>Click me </button>
      <h1 className='dark1'>Hii</h1>
@@ -28,3 +38,4 @@ export default function App() {
     </div>
   )
 }
+
